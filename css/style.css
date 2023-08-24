@@ -1,0 +1,43 @@
+body {
+    /*background: url('https://cdn.wallpapersafari.com/72/42/z1wXxV.jpg');*/
+    background: url('https://wallpaper.dog/large/20371818.jpg');
+
+}
+
+body {
+    background-attachment:fixed;
+    background-repeat:no-repeat;
+    background-size: 100%;
+}
+
+.header {
+    padding-top: 50px;
+    padding-bottom: 50px;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    height: 550px;
+}
+
+.i {
+    display: flex;
+    gap: 30px;
+}
+
+.i > button {
+    width: 200px;
+    height: 80px;
+    border-radius: 10px;
+    font-size: 20px;
+    cursor: pointer;
+    -webkit-box-shadow: -2px -3px 13px 2px rgba(34, 60, 80, 0.2);
+    -moz-box-shadow: -2px -3px 13px 2px rgba(34, 60, 80, 0.2);
+    box-shadow: -2px 0px 13px 2px rgba(237, 241, 245, 0.96);
+}
+
+a {
+    text-decoration: none;
+    color: black;
+}
